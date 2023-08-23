@@ -1,0 +1,22 @@
+PODS:
+  - FlutterMacOS (1.0.0)
+  - openiothub_gateway_service (0.0.1):
+    - FlutterMacOS
+
+DEPENDENCIES:
+  - FlutterMacOS (from `Flutter/ephemeral`)
+  - openiothub_gateway_service (from `Flutter/ephemeral/.symlinks/plugins/openiothub_gateway_service/macos`)
+
+EXTERNAL SOURCES:
+  FlutterMacOS:
+    :path: Flutter/ephemeral
+  openiothub_gateway_service:
+    :path: Flutter/ephemeral/.symlinks/plugins/openiothub_gateway_service/macos
+
+SPEC CHECKSUMS:
+  FlutterMacOS: 8f6f14fa908a6fb3fba0cd85dbd81ec4b251fb24
+  openiothub_gateway_service: 8710b99e4fc84ad5936ce02a84fc1bcbe285804d
+
+PODFILE CHECKSUM: 236401fc2c932af29a9fcf0e97baeeb2d750d367
+
+COCOAPODS: 1.11.2
