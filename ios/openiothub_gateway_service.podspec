@@ -25,4 +25,13 @@ OpenIoTHub gateway service
   # Flutter.framework does not contain a i386 slice.
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES', 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386' }
   s.swift_version = '5.0'
+
+  s.dependency 'OpenIoTHubGateway' , '0.0.4'
+  s.static_framework = true
+
+#   s.preserve_paths = 'Client.xcframework/**/*'
+#   s.xcconfig =  {'OTHER_LDFLAGS' => '-framework Client'}
+#   s.vendored_frameworks = 'Client.xcframework'
+#   s.libraries = "resolv.9", "resolv"
+#   s.static_framework = true
 end

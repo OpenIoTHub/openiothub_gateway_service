@@ -7,9 +7,9 @@ description: |
 output: 'lib/openiothub_gateway_service_bindings_generated.dart'
 headers:
   entry-points:
-    - 'src/openiothub_gateway_service.h'
+    - 'libs_headers/gateway.h'
   include-directives:
-    - 'src/openiothub_gateway_service.h'
+    - 'libs_headers/gateway.h'
 preamble: |
   // ignore_for_file: always_specify_types
   // ignore_for_file: camel_case_types

@@ -24,4 +24,22 @@ OpenIoTHub gateway service
   s.platform = :osx, '10.11'
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES' }
   s.swift_version = '5.0'
+
+  s.dependency 'OpenIoTHubGateway' , '0.0.4'
+  s.static_framework = true
+
+#   s.frameworks = 'OpenIoTHubGateway'
+#   s.xcconfig =  {'OTHER_LDFLAGS' => '-framework OpenIoTHubGateway'}
+#   s.preserve_paths = 'OpenIoTHubGateway.xcframework/**/*'
+
+#   s.preserve_paths = 'Client.xcframework/**/*'
+#   s.xcconfig =  {'OTHER_LDFLAGS' => '-framework Client'}
+#   s.vendored_frameworks = 'Client.xcframework'
+#   s.libraries = "resolv.9", "resolv"
+
+#   s.static_framework = true
+#   s.preserve_paths = 'Client.framework/**/*'
+#   s.xcconfig =  {'OTHER_LDFLAGS' => '-framework Client'}
+#   s.vendored_frameworks = 'Client.framework'
+#   s.static_framework = true
 end
