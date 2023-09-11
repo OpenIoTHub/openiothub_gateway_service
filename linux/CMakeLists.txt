@@ -18,6 +18,6 @@ set(openiothub_gateway_service_bundled_libraries
   "${CMAKE_CURRENT_SOURCE_DIR}/libs/gateway.so"
   # Defined in ../src/CMakeLists.txt.
   # This can be changed to accommodate different builds.
-  $<TARGET_FILE:openiothub_gateway_service>
+#  $<TARGET_FILE:openiothub_gateway_service>
   PARENT_SCOPE
 )
