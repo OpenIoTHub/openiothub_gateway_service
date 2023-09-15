@@ -1,7 +1,8 @@
 name: openiothub_gateway_service
 description: OpenIoTHub gateway service
 version: 0.0.1
-homepage:
+homepage: https://github.com/OpenIoTHub
+repository: https://github.com/OpenIoTHub/openiothub_gateway_service
 
 environment:
   sdk: '>=3.0.6 <4.0.0'
